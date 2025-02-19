@@ -4,3 +4,5 @@
 ## 2. Variational AutoEncoders
 
 ## 3. Diffusion Models
+
+## 4. GANs
