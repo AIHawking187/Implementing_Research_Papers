@@ -1,23 +1,43 @@
-name: flowgan_env
+# name: flowgan_env
+# channels:
+#   - defaults
+#   - conda-forge
+# dependencies:
+#   - python=3.6
+#   - pip=20.3.4
+#   - numpy=1.19.5
+#   - pandas=1.0.5
+#   - matplotlib=3.1.3
+#   - scikit-learn=0.22.2.post1
+#   - scipy=1.4.1
+#   - ipykernel
+#   - jupyterlab
+#   - notebook
+#   - joblib
+#   - easydict=1.9
+#   - pip:
+#       - tensorflow==1.15.0
+#       - tensorflow-probability==0.8.0
+#       - imageio==2.8.0
+#       - pybind11==2.10.4  # to avoid NumPy ABI conflicts
+name: flowgan_env_2
 channels:
   - defaults
   - conda-forge
 dependencies:
   - python=3.6
-  - pip=20.3.4
-  - numpy=1.19.5
-  - pandas=1.0.5
-  - matplotlib=3.1.3
-  - scikit-learn=0.22.2.post1
-  - scipy=1.4.1
-  - ipykernel
+  - pip
   - jupyterlab
   - notebook
-  - joblib
-  - easydict=1.9
+  - ipykernel
+  - numpy=1.18.5
+  - pandas=1.0.5
+  - scikit-learn=0.22.2.post1
+  - matplotlib=3.1.3
+  - scipy=1.4.1
+  - six=1.15.0
   - pip:
       - tensorflow==1.15.0
       - tensorflow-probability==0.8.0
       - imageio==2.8.0
-      - pybind11==2.10.4  # to avoid NumPy ABI conflicts
 
